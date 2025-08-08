@@ -1,131 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet"
-  />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
-  <title>Pre Launch</title>
-  <style>
-    body {
-      overflow-y: scroll;
-      overflow-x: hidden;
-      width: 100%;
-      height: auto;
-      font-family: "Montserrat", sans-serif;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pre Launch</title>
+    <style>
+      body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        font-family: "Montserrat", sans-serif;
+      }
 
-    .soft-glow {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      background: radial-gradient(
-        circle,
-        rgba(0, 0, 255, 0.4) 0%,
-        rgba(0, 0, 255, 0.2) 25%,
-        rgba(0, 0, 255, 0.1) 50%,
-        rgba(0, 0, 255, 0) 65%,
-        rgba(0, 0, 255, 0) 75%,
-        rgba(0, 0, 255, 0) 85%,
-        rgba(0, 0, 0, 0) 100%
-      );
-    }
+      .soft-glow {
+        width: 300%;
+        height: 180%;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(0, 0, 255, 0.4) 0%,
+          rgba(0, 0, 255, 0.2) 25%,
+          rgba(0, 0, 255, 0.1) 50%,
+          rgba(0, 0, 255, 0) 65%,
+          rgba(0, 0, 255, 0) 75%,
+          rgba(0, 0, 255, 0) 85%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
 
-    .test-anton {
-      font-family: "Anton", sans-serif;
-      letter-spacing: 12px;
-      /* font-weight: 100; */
-    }
-  </style>
-</head>
-<body class="bg-[#8D8DC4] md:p-10 p-4">
-  <div class="bg-[#13162C] rounded-2xl relative overflow-hidden">
-    <div class="soft-glow absolute -top-[500px] -right-[500px]"></div>
-    <div class="2xl:px-52 lg:px-14 md:px-10 px-4 py-8 relative z-10">
-      <div class="flex items-center justify-between">
-        <h1 class="text-white font-black sm:text-2xl text-sm uppercase">Centarius</h1>
-        <div class="flex items-center gap-2">
-          <p class="text-white sm:text-xs text-[10px] uppercase">Patreon</p>
-          <p class="text-white">&#124;</p>
-          <p class="text-white sm:text-xs text-[10px] uppercase">Discord</p>
-        </div>
-        <div class="flex gap-2">
-          <div class="sm:w-12 w-8 sm:h-4 h-2 bg-white rounded-full"></div>
-          <div class="sm:w-4 w-2 sm:h-4 h-2 bg-white rounded-full"></div>
-        </div>
-      </div>
-
-      <div class="flex md:flex-row flex-col-reverse justify-between mt-14">
-        <div class="flex flex-col gap-8">
-          <h1 class="lg:text-7xl md:text-4xl text-2xl font-black text-white sm:mt-20 mt-0">
-            BECOME PART OF <br />A REVOLUTION
+      .test-anton {
+        font-family: "Anton", sans-serif;
+        letter-spacing: 12px;
+        /* font-weight: 100; */
+      }
+    </style>
+  </head>
+  <body class="bg-[#8D8DC4] md:p-10 p-4">
+    <div class="bg-[#13162C] rounded-2xl relative overflow-hidden">
+      <div class="2xl:px-52 lg:px-14 md:px-10 px-4 py-8 relative z-10">
+        <div class="flex items-center justify-between">
+          <h1 class="text-white font-black sm:text-2xl text-sm uppercase">
+            Centarius
           </h1>
-          <p class="text-white text-xs italic">
-            Chat & Play with other members, Play 100+ web games anytime, anywhere. <br />
-            No downloads. Connect on Discord, support on Patreon & enjoy exclusive perks!
-          </p>
-          <div class="flex flex-col gap-2">
-            <div
-              class="bg-white test-anton tracking-widest lg:text-2xl md:text-lg text-lg lg:w-96 md:w-80  h-20 flex items-center justify-center rounded-lg cursor-pointer"
-            >
-              JOIN CENTARIUS
-            </div>
-            
-            <div
-              class="border-2 border-white lg:w-96 md:w-80 h-14 flex items-center justify-center rounded-lg text-white cursor-pointer"
-            >
-              CONNECT
-            </div>
+          <div class="flex items-center gap-2">
+            <p class="text-white sm:text-xs text-[10px] uppercase">Patreon</p>
+            <p class="text-white">&#124;</p>
+            <p class="text-white sm:text-xs text-[10px] uppercase">Discord</p>
+          </div>
+          <div class="flex gap-2">
+            <div class="sm:w-12 w-8 sm:h-4 h-2 bg-white rounded-full"></div>
+            <div class="sm:w-4 w-2 sm:h-4 h-2 bg-white rounded-full"></div>
           </div>
         </div>
-        <img
-          src="https://i.ibb.co/1f9HZ2xr/c-Qaqi-DUmh-YZf-Pin-Tw-PDfd-Jyyx-M.png"
-          alt="Centarius Image"
-          class="z-1 2xl:w-[600px] xl:w-[400px] lg:w-[400px] md:w-[300px]  h-auto w-60"
-        />
-      </div>
 
-      <div class="flex flex-col gap-10">
-        <h1 class="md:text-4xl text-2xl font-black text-white mt-20">
-          WATCH THE DEMO <br />
-          TRAILER
-        </h1>
-        <div class="w-full flex items-center gap-10">
-          <div class="w-1/2 h-[300px] rounded-2xl bg-[#8D8DC4]"></div>
-          <div class="w-1/2 flex flex-col gap-2">
-            <div
-              class="w-[400px] border border-white px-6 py-2 text-white rounded-[20px] rounded-br-[40px]"
+        <div
+          class="flex md:flex-row md:items-start flex-col-reverse justify-between mt-14 items-center"
+        >
+          <div class="flex flex-col gap-8">
+            <h1
+              class="2xl:text-7xl lg:text-6xl md:text-4xl text-2xl font-black text-white sm:mt-20 mt-0"
             >
-              Gamers Community
-            </div>
-            
-            <div
-              class="w-[350px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
-            >
-              Play Anywhere
-            </div>
-            <div
-              class="w-[300px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
-            >
-              NO Downloads
-            </div>
-            <div
-              class="w-[250px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
-            >
-              With Anyone
+              BECOME PART OF <br />A REVOLUTION
+            </h1>
+            <p class="text-white text-xs italic">
+              Chat & Play with other members, Play 100+ web games anytime,
+              anywhere. <br />
+              No downloads. Connect on Discord, support on Patreon & enjoy
+              exclusive perks!
+            </p>
+            <div class="flex flex-col gap-2">
+              <div
+                class="bg-white test-anton tracking-widest lg:text-2xl md:text-lg text-lg lg:w-96 md:w-80 h-20 flex items-center justify-center rounded-lg cursor-pointer"
+              >
+                JOIN CENTARIUS
+              </div>
+
+              <div
+                class="border-2 border-white lg:w-96 md:w-80 h-14 flex items-center justify-center rounded-lg text-white cursor-pointer"
+              >
+                CONNECT
+              </div>
             </div>
           </div>
+          <div class="relative">
+            <img
+              src="https://i.ibb.co/1f9HZ2xr/c-Qaqi-DUmh-YZf-Pin-Tw-PDfd-Jyyx-M.png"
+              alt="Centarius Image"
+              class="z-1 2xl:w-[600px] xl:w-[400px] lg:w-[400px] md:w-[300px] h-auto w-68"
+            />
+            <div
+              class="soft-glow absolute itwms right-[-400px] top-[-100px] -z-1"
+            ></div>
+          </div>
         </div>
+
         <div class="relative">
-          <div
-            class="w-full h-[500px] flex items-center justify-center absolute -top-96"
-          >
+          <div class="flex flex-col gap-10 ">
+            <h1
+              class="2xl:-mt-32 2xl:text-5xl md:text-4xl text-2xl font-black text-white mt-20"
+            >
+              WATCH THE DEMO <br />
+              TRAILER
+            </h1>
+            <div class="w-full flex items-center gap-10 ">
+              <div class="w-1/2 h-[300px] rounded-2xl bg-[#8D8DC4]"></div>
+              <div class="w-1/2 flex flex-col gap-2">
+                <div
+                  class="w-[450px] border border-white px-6 py-2 text-white rounded-[20px] rounded-br-[40px]"
+                >
+                  ABCD
+                </div>
+                <div
+                  class="w-[400px] border border-white px-6 py-2 text-white rounded-[20px] rounded-br-[40px]"
+                >
+                  Gamers Community
+                </div>
+  
+                <div
+                  class="w-[350px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
+                >
+                  Play Anywhere
+                </div>
+                <div
+                  class="w-[300px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
+                >
+                  NO Downloads
+                </div>
+                <div
+                  class="w-[250px] border-[1px] rounded-2xl border-white px-6 py-2 text-white rounded-br-4xl"
+                >
+                  With Anyone
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="w-full h-[500px] flex items-center justify-center -mt-96">
             <svg
               class="w-full h-full"
               viewBox="0 0 100 50"
@@ -142,6 +164,5 @@
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
